@@ -1,4 +1,4 @@
-package Lab_3;
+package lab_3;
 
 // Question
 // For the program below, trace through its execution by hand to show what output is produced when it runs.
