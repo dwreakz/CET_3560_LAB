@@ -1,4 +1,4 @@
- package Lab_6;
+ package lab_6;
  
  public class ArrayExamples {
 	    // Method to print elements of an array

@@ -1,4 +1,4 @@
-package Lab_2;
+package lab_2;
 
 public class CircleCalculator {
 	public static void main (String [] agrs) {

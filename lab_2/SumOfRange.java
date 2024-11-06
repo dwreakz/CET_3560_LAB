@@ -1,4 +1,4 @@
-package Lab_2;
+package lab_2;
 
 public class SumOfRange {
 	
