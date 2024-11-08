@@ -60,8 +60,25 @@ public class Employee {
             lawyerVacationForm = form;
         }
     }
-    public static class StanFordLawyer extends Employee {
-        public int getVacationDays() {
+    public static class StanfordLawyer extends Lawyer {
+        @Override
+        public double getSalary() {
+            return super.getSalary() * 1.2;
         }
+        @Override
+        public int getVacationDays() {
+            return super.getVacationDays() + 3;
+        }
+        @Override
+        public String getVacationForm() {
+            return super.getVacationForm().repeat(4);
+        }
+    }
+    public static void main(String[] args) {
+        StanfordLawyer stanfordLawyer = new StanfordLawyer();
+
+        System.out.println(stanfordLawyer.getSalary());
+        System.out.println(stanfordLawyer.getVacationDays());
+        System.out.println(stanfordLawyer.getVacationForm());
     }
 }
